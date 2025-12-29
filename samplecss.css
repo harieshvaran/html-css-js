@@ -1,0 +1,56 @@
+/* ============================= */
+/* BASIC RESET & GLOBAL STYLES   */
+/* ============================= */
+
+/* Applies to ALL elements */
+* {
+    margin: 0;              /* Removes default spacing */
+    padding: 0;
+    box-sizing: border-box; /* Width includes padding + border */
+}
+
+/* BODY STYLING */
+body {
+    background-color: #f4f4f4; /* Page background */
+    color: #333;               /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+    line-height: 1.6;          /* Space between lines */
+    padding: 20px;
+}
+
+/* ============================= */
+/* TEXT & TYPOGRAPHY             */
+/* ============================= */
+
+h1 {
+    color: darkblue;
+    text-align: center;   /* left | right | center */
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal; /* bold | lighter */
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/* ============================= */
+/* LINKS                         */
+/* ============================= */
+
+a {
+    color: red;
+    text-decoration: none; /* removes underline */
+}
+
+/* Hover effect */
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* ============================= */
+/* BOX MODEL                     */
+/* ====*
